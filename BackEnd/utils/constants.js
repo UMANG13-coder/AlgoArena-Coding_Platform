@@ -1,0 +1,25 @@
+const STATUS_CODE={
+NOT_FOUND:404,
+SUCCESS:200,
+OK:200,
+SERVER_ERROR:500,
+INTERNAL_SERVER_ERROR:500,
+UNAUTHORIZED:401,
+CONFLICT:409,
+VALIDATION_ERROR:400,
+BAD_REQUEST:400,
+CREATED:201
+}
+
+const LANGUAGE_MAP={
+    1:"Python",
+    2:"Java",
+    54:"C++",
+    4:"JavaScript",
+    5:"Go"
+}
+
+module.exports={
+    STATUS_CODE,
+    LANGUAGE_MAP
+}
